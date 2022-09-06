@@ -1,8 +1,45 @@
+:root{
+    --primary-color: #15202B;
+    --text-color: #8899A6;
+}
+
 body{
     text-align: center;
+    background-color: var(--primary-color);
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+input {
+    font-size: 20px;
+    border: 2px solid var(--text-color);
+    border-radius: 0.2rem;
+    padding: 0.5rem;
 }
 
 label {
     display: block;
     padding-bottom: 1rem;
+    color: var(--text-color);
+    font-size: 30px;
+    margin-top: 2rem;
+}
+
+button {
+    margin-top: 2rem;
+    font-size: larger;
+    border: 2px solid var(--text-color);
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+}
+
+.output {
+    display: block;
+    padding-bottom: 1rem;
+    color: var(--text-color);
+    font-size: 30px;
+    margin-top: 2rem;
 }
