@@ -9,13 +9,13 @@ function calculateProfitAndLoss(initial, quantity, current){
         var loss = (initial-current)*quantity;
         var lossPercentage = (loss/initial)*100;
 
-        outputBox.style.outputBox = "Red";
+        outputBox.style.color = "Red";
         showOutput("Hey, the loss is " + loss + " and the percentage is " + lossPercentage + "%");
     } else if(current > initial ) {
         var profit = (current - initial)*quantity;
         var profitPercentage = (profit/initial)*100;
 
-        outputBox.style.outputBox = "Green";
+        outputBox.style.color = "Green";
         showOutput("Hey, the profit is " + profit + " and the percentage is " + profitPercentage + "%");
     } else {
         showOutput("No profit, no loss.");
