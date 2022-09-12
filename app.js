@@ -4,6 +4,7 @@ var currentPrice = document.querySelector("#current-price");
 var submitbutton = document.querySelector("#sumbit-btn");
 var outputBox = document.querySelector("#output-box");
 
+// Function for calculating profit or loss
 function calculateProfitAndLoss(initial, quantity, current){
     if(initial > current){
         var loss = (initial-current)*quantity;
@@ -22,10 +23,12 @@ function calculateProfitAndLoss(initial, quantity, current){
     }
 }
 
+// Reflecting output message to UI
 function showOutput(message){
     outputBox.innerHTML = message;
 }
 
+// On click 
 function clickHandler(){
     var ip = Number(initialPrice.value);
     var qty = Number(stockQuantity.value);
