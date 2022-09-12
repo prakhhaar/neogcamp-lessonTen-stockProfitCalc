@@ -6,6 +6,7 @@
 body{
     text-align: center;
     background-color: var(--primary-color);
+    min-height: 100vh;
 }
 
 h1 {
@@ -43,3 +44,37 @@ button {
     font-size: 30px;
     margin-top: 2rem;
 }
+
+.footer {
+    margin-top: 3rem;
+    background-color: var(--primary-dark);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--text-color);
+ }
+  
+  .list-non-bullet {
+    list-style: none;
+  }
+  
+  .list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+  }
+  
+  .footer-icons {
+    max-width: 50px;
+  }
+  
+  .link {
+    text-decoration: none;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .container-centre {
+    max-width: 600px;
+    margin: auto;
+    color: var(--text-color);
+  }
